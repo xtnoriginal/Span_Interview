@@ -10,6 +10,7 @@ public class Scores {
 
     /***
      * Add scores to a hashmap
+     * the code is O(1) since we adding to hashmap  aAZ1QAZ
      * @param teamA
      * @param teamB
      * @param scoreA
@@ -34,6 +35,7 @@ public class Scores {
 
     /***
      * Display league ranking  by soring using a MaxHeap
+     * the  code is O(N) + O(nlogn)
      */
     public  void displayScores(){
         PriorityQueue<TeamScore> maxHeap = new PriorityQueue<>(Collections.reverseOrder());

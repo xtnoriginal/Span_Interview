@@ -41,6 +41,7 @@ public class Main {
 
     public static void main(String [] args){
 
+        // the code takes in the file name as input
 
         if(args.length==0){
             System.out.println();
@@ -48,7 +49,6 @@ public class Main {
             readFile(args[0]);
         }
 
-        //readFile();
 
     }
 
